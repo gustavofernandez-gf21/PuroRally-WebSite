@@ -1,0 +1,543 @@
+body {
+    background-image: url(images/fondo.jpg);
+    text-align: center;
+}
+
+#contenedor {
+    width: 960px;
+    min-height: 900px;
+    background-color: rgba(206, 205, 205, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-box-shadow: 4px 7px 11px #000000;
+}
+
+header {
+    width: 960px;
+    height: 200px;
+
+}
+
+#marca {
+    width: 755px;
+    height: 156px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    width: 960px;
+    height: 50px;
+
+}
+
+ul.enlaces {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul.enlaces li {
+    display: inline-block;
+}
+
+ul.enlaces li a {
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background-image: url(images/menuButton.png);
+    background-size: cover;
+    opacity: 0.5;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    -webkit-transition: All 1s ease;
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+}
+
+ul.enlaces li a:hover {
+    color: yellow;
+    opacity: 100;
+    -webkit-transform: rotate(5deg) scale(1.2) skew(1deg) translate(0px);
+}
+
+#contenido {
+    width: 960px;
+    height: auto;
+}
+
+.content {
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 1px;
+    font-family: Calibri;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#cita {
+    border-style: solid;
+    padding: 5px;
+    font-family: 'Special Elite', cursive;
+
+}
+
+.fotosHistoria {
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+
+.columna {
+    width: 650px;
+    float: right;
+    margin-right: 5px;
+}
+
+ul.listaHistoria {
+    border: solid;
+    font-size: 25px;
+    font-family: calibri;
+    text-align: left;
+    list-style-type: square;
+    font-family: 'Special Elite', cursive;
+}
+
+em {
+    color: red;
+}
+
+h2 {
+    margin-top: 60px;
+    color: yellow;
+    background-color: black;
+    font-family: calibri;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+ul.columnaFotos {
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.imagen1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+a.imagesList img:hover {
+    border: 5px solid yellow;
+}
+
+footer {
+    width: 960px;
+    height: 100px;
+    background-color: black;
+    clear: both;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.enlacePie {
+    color: yellow;
+}
+
+#pie {
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: calibri;
+}
+
+@media handheld,
+screen and (min-width: 600px) and (max-width: 1023px) {
+
+   #contenedor {
+        width: 90%;
+        min-height: auto;
+        background-color: rgba(206, 205, 205, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-box-shadow: 4px 7px 11px #000000;
+
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    #marca {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.enlaces {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+    }
+
+    #logo {
+        margin-top: 0.5em;
+        width: 90%;
+    }
+
+    ul.enlaces li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    ul.enlaces li a {
+        display: block;
+        margin-top: 10px;
+        width: 8em;
+        height: auto;
+        line-height: 10px;
+        background-image: url(images/menuButton.png);
+        background-size: cover;
+        opacity: 0.5;
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        -webkit-transition: All 1s ease;
+        -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    }
+
+    ul.enlaces li a:hover {
+        color: yellow;
+        opacity: 100;
+        -webkit-transform: rotate(5deg) scale(1.2) skew(1deg) translate(0px);
+    }
+
+
+    #contenido {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+
+    .content {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Calibri;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    h2 {
+        margin-top: 5%;
+        color: yellow;
+        background-color: black;
+        font-family: calibri;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+
+    #cita {
+        border-style: solid;
+        padding: 2px;
+        font-family: 'Special Elite', cursive;
+
+    }
+
+    ul.columnaFotos{
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    ul.columnaFotos li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    ul.columnaFotos li a{
+        display: block;
+        margin-top: 10px;
+        width: 8em;
+        height: auto;
+        line-height: 10px;
+        padding: 8px;
+    }
+    
+    .fotosHistoria {
+    display: inline-block;
+    width: 100%; 
+   }
+
+    a.imagesList img:hover {
+        border: 2px solid yellow;
+    }
+
+    .columna {
+        width: 95%;
+        padding-right: 1%;
+
+    }
+
+    ul.listaHistoria {
+        border: solid;
+        font-size: 100%;
+        font-family: calibri;
+        list-style-type: square;
+        font-family: 'Special Elite', cursive;
+    }
+
+    em {
+        color: red;
+    }
+
+
+    #video {
+        width: 90%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        clear: both;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .enlacePie {
+        color: yellow;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    #pie {
+        text-align: center;
+        line-height: 15px;
+        color: white;
+        font-family: calibri;
+    }
+}
+
+
+
+
+
+
+@media handheld,
+screen and (max-width:599px) {
+
+
+    #contenedor {
+        width: 90%;
+        min-height: auto;
+        background-color: rgba(206, 205, 205, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-box-shadow: 4px 7px 11px #000000;
+
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    #marca {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.enlaces {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+    }
+
+    #logo {
+        margin-top: 0.5em;
+        width: 90%;
+    }
+
+    ul.enlaces li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    ul.enlaces li a {
+        display: block;
+        margin-top: 10px;
+        width: 4.5em;
+        height: auto;
+        line-height: 10px;
+        background-image: url(images/menuButton.png);
+        background-size: cover;
+        opacity: 0.5;
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        -webkit-transition: All 1s ease;
+        -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    }
+
+    ul.enlaces li a:hover {
+        color: yellow;
+        opacity: 100;
+        -webkit-transform: rotate(5deg) scale(1.2) skew(1deg) translate(0px);
+    }
+
+
+    #contenido {
+        width: 100%;
+        height:auto;
+        overflow: auto;
+    }
+
+
+    .content {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Calibri;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    h2 {
+        margin-top: 5%;
+        color: yellow;
+        background-color: black;
+        font-family: calibri;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+
+    #cita {
+        border-style: solid;
+        padding: 2px;
+        font-family: 'Special Elite', cursive;
+
+    }
+
+    ul.columnaFotos{
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    ul.columnaFotos li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    ul.columnaFotos li a{
+        display: block;
+        margin-top: 10px;
+        width: 8em;
+        height: auto;
+        line-height: 10px;
+        padding: 8px;
+    }
+    
+    .fotosHistoria {
+    display: inline-block;
+    width: 100%; 
+   }
+
+
+    a.imagesList img:hover {
+        border: 2px solid yellow;
+    }
+
+    .columna {
+        width: 95%;
+        padding-right: 1%;
+
+    }
+
+    ul.listaHistoria {
+        border: solid;
+        font-size: 16px;
+        font-family: calibri;
+        list-style-type: square;
+        font-family: 'Special Elite', cursive;
+    }
+
+    em {
+        color: red;
+    }
+
+    #video {
+        width: 90%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        clear: both;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .enlacePie {
+        color: yellow;
+    }
+
+    .info {
+        font-size: 14px;
+    }
+
+    #pie {
+        text-align: center;
+        line-height: 15px;
+        color: white;
+        font-family: calibri;
+    }
+}

@@ -1,0 +1,410 @@
+body {
+    background-image: url(images/fondo.jpg);
+    text-align: center;
+}
+
+#contenedor {
+    width: 960px;
+    min-height: 900px;
+    background-color: rgba(206, 205, 205, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-box-shadow: 4px 7px 11px #000000;
+
+}
+
+header {
+    width: 960px;
+    height: 200px;
+}
+
+#marca {
+    max-width: 960px;
+    height: 156px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    width: 960px;
+    height: 50px;
+}
+
+ul.enlaces {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul.enlaces li {
+    display: inline-block;
+}
+
+ul.enlaces li a {
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background-image: url(images/menuButton.png);
+    background-size: cover;
+    opacity: 0.5;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    -webkit-transition: All 1s ease;
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+}
+
+ul.enlaces li a:hover {
+    color: yellow;
+    opacity: 100;
+    -webkit-transform: rotate(5deg) scale(1.2) skew(1deg) translate(0px);
+}
+
+
+#contenido {
+    width: 960px;
+    height: 600px;
+}
+
+
+.content {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Calibri;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a.enlace-text {
+    text-decoration: none;
+    color: blue;
+}
+
+h2 {
+    margin-top: 60px;
+    color: yellow;
+    background-color: black;
+    font-family: calibri;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.imagen1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+
+footer {
+    width: 960px;
+    height: 100px;
+    background-color: black;
+    clear: both;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.enlacePie {
+    color: yellow;
+}
+
+#pie {
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: calibri;
+}
+
+
+@media handheld,
+screen and (min-width: 600px) and (max-width: 1023px) {
+
+    #contenedor {
+        width: 90%;
+        min-height: auto;
+        background-color: rgba(206, 205, 205, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-box-shadow: 4px 7px 11px #000000;
+
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    #marca {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.enlaces {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+    }
+
+    #logo {
+        margin-top: 0.5em;
+        width: 90%;
+    }
+
+    ul.enlaces li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    ul.enlaces li a {
+        display: block;
+        margin-top: 10px;
+        width: 8em;
+        height: auto;
+        line-height: 10px;
+        background-image: url(images/menuButton.png);
+        background-size: cover;
+        opacity: 0.5;
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        -webkit-transition: All 1s ease;
+        -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    }
+
+    ul.enlaces li a:hover {
+        color: yellow;
+        opacity: 100;
+        -webkit-transform: rotate(5deg) scale(1.2) skew(1deg) translate(0px);
+    }
+
+
+    #contenido {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 2%;
+        font-family: Calibri;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    a.enlace-text {
+        text-decoration: none;
+        color: blue;
+    }
+
+    h2 {
+        margin-top:2%;
+        color: yellow;
+        background-color: black;
+        font-family: calibri;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+
+    .imagen1 {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+
+footer {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        clear: both;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .enlacePie {
+        color: yellow;
+    }
+
+    .info {
+        font-size: 10px;
+    }
+
+    #pie {
+        text-align: center;
+        line-height: 14px;
+        color: white;
+        font-family: calibri;
+    }
+}
+
+
+
+
+@media handheld,
+screen and (max-width:599px) {
+
+
+    #contenedor {
+        width: 90%;
+        min-height: auto;
+        background-color: rgba(206, 205, 205, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-box-shadow: 4px 7px 11px #000000;
+
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    #marca {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.enlaces {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+    }
+
+    #logo {
+        margin-top: 0.5em;
+        width: 90%;
+    }
+
+    ul.enlaces li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    ul.enlaces li a {
+        display: block;
+        margin-top: 10px;
+        width: 4.5em;
+        height: auto;
+        line-height: 10px;
+        background-image: url(images/menuButton.png);
+        background-size: cover;
+        opacity: 0.5;
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        -webkit-transition: All 1s ease;
+        -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    }
+
+    ul.enlaces li a:hover {
+        color: yellow;
+        opacity: 100;
+        -webkit-transform: rotate(5deg) scale(1.2) skew(1deg) translate(0px);
+    }
+
+
+    #contenido {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content {
+        color: black;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Calibri;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    a.enlace-text {
+        text-decoration: none;
+        color: blue;
+    }
+
+    h2 {
+        margin-top: 2%;
+        color: yellow;
+        background-color: black;
+        font-family: calibri;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+    }
+
+    .imagen1 {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        clear: both;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .enlacePie {
+        color: yellow;
+    }
+
+    .info {
+        font-size: 13px;
+    }
+
+    #pie {
+        text-align: center;
+        line-height: 15px;
+        color: white;
+        font-family: calibri;
+    }
+}
